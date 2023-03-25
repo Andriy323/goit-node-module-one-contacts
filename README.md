@@ -1,5 +1,19 @@
-# goit-node-module-one-contacts
+## Отримуємо і виводимо весь список контактів у вигляді таблиці (console.table)
 
-![Creating repo from a template step 1](./image/list.png)
+`node index.js --action="list"`
+![List contact](./image/list.png)
 
-![Creating repo from a template step 1](https://imgur.com/a/R0ST5wC)
+## Отримуємо контакт по id
+
+`node index.js --action="get" --id AeHIrLTr6JkxGE6SN-0Rw`
+![Get contact](./image/get.png)
+
+## Додаємо контакт
+
+`node index.js --action="add" --name Mango2 --email mango@gmail.com --phone 322-22-22`
+![Add contact](./image/add.png)
+
+## Видаляємо контакт
+
+`node index.js --action="remove" --id qdggE76Jtbfd9eWJHrssH`
+![Remove contact](./image/remove.png)
